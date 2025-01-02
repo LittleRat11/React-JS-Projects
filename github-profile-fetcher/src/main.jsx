@@ -7,7 +7,7 @@ import { ApolloClient, InMemoryCache, ApolloProvider, createHttpLink} from "@apo
 const httpLink = createHttpLink({
   uri: 'https://api.github.com/graphql',
   headers: {
-    authorization: `Bearer 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`,
+    authorization: `Bearer ${Token}`,
   },
 });
 
